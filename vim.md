@@ -9,8 +9,8 @@
 
 ## Editing (change = delete and insert)
 `r` - replace one char  
-`cc` - change entire line
-`ciw` - change entire word
+`cc` - change entire line  
+`ciw` - change entire word  
 `u` - undo  
 
 ## Marking
