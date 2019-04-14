@@ -17,6 +17,9 @@
 ## Marking
 `v` - start visual mode (char) , finish with a command like yank `y`  
 `V` - start visual mode (line)
+`U` - command - Convert to uppercase  
+`u` - command - Convert to lowercase  
+
 
 ## Yank, cut, paste (yank = copy)
 `yy` - copy a line  
