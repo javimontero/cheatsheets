@@ -1,6 +1,6 @@
 # Code Snippets
-[Pushover notifications](#Pushover-notifications)
-[Timestamp](#Timestamp)
+[Pushover notifications](#Pushover-notifications)  
+[Timestamp](#Timestamp)  
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net))
