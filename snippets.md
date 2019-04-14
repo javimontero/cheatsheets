@@ -38,5 +38,6 @@ def send_pushover (msg):
 ## Timestamp
 Generate a timestamp including microseconds for a file name, for example.
 ```
+import datetime
 fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 ```

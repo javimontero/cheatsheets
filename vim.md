@@ -4,7 +4,7 @@
 `$` - Move to the end of the line  
 `G` - Go to end of document  
 `gg` - go to first line  
-`L` - move to bottom of screen
+`L` - move to bottom of screen  
 `H` - move to top of screen
 
 ## Editing (change = delete and insert)
@@ -16,7 +16,7 @@
 
 ## Marking
 `v` - start visual mode (char) , finish with a command like yank `y`  
-`V` - start visual mode (line)
+`V` - start visual mode (line)  
 `U` - command - Convert to uppercase  
 `u` - command - Convert to lowercase  
 
