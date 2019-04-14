@@ -10,7 +10,7 @@
 ## Editing (change = delete and insert)
 `r` - replace one char  
 `cc` - change entire line  
-`cw` - change from cursor until the end of the word
+`cw` - change from cursor until the end of the word  
 `ciw` - change entire word  
 `u` - undo  
 
@@ -24,7 +24,7 @@
 ## Yank, cut, paste (yank = copy)
 `yy` - copy a line  
 `dd` - cut (delete) a line  
-`dw` - cut from cursor until the end of the word
+`dw` - cut from cursor until the end of the word  
 `diw` - cut entire word  
 `p` - paste after cursor  
 `P`- paste before cursor  
