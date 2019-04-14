@@ -1,4 +1,6 @@
 # Code Snippets
+[Pushover notifications](#Pushover-notifications)
+[Timestamp](#Timestamp)
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net))
@@ -32,4 +34,8 @@ def send_pushover (msg):
         "message": msg,
       }), { "Content-type": "application/x-www-form-urlencoded" })
     conn.getresponse()
+```
+## Timestamp
+```
+fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 ```
