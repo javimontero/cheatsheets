@@ -6,7 +6,7 @@
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Usefull to inform of long process termination like machine learning training.  
 
 ### Bash 
-```
+```shell
 if [ $# -ne 1 ];then
 	echo "Usage: $0 msg"
 	exit 3
