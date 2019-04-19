@@ -23,7 +23,7 @@ function pushover {
 pushover "Message"
 ```
 ### Python
-```
+```python
 import http.client, urllib
 def send_pushover (msg):
     conn = http.client.HTTPSConnection("api.pushover.net:443")
