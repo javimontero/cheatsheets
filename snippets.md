@@ -41,3 +41,10 @@ Generate a timestamp including microseconds for a file name, for example.
 import datetime
 fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 ```
+## Renaming conda environments
+You have to create a new enviornment by cloning, and then remove the old one.  
+```
+conda create --name new_name --clone old_name
+conda remove --name old_name --all
+```
+
