@@ -1,7 +1,7 @@
 # Code Snippets
 [Pushover notifications](#Pushover-notifications)  
 [Timestamp](#Timestamp)  
-[Runtime](#Calculate runtime of code)
+[Runtime](#Calculate-runtime-of-code)
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Usefull to inform of long process termination like machine learning training.  
