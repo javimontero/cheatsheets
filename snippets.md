@@ -1,6 +1,7 @@
 # Code Snippets
 [Pushover notifications](#Pushover-notifications)  
 [Timestamp](#Timestamp)  
+[Runtime](#Calculate runtime of code)
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Usefull to inform of long process termination like machine learning training.  
@@ -41,3 +42,15 @@ Generate a timestamp including microseconds for a file name, for example.
 import datetime
 fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 ```
+## Calculate runtime of code
+```python
+from datetime import datetime, timedelta
+import timeit
+start = timeit.default_timer()
+``` 
+Some code  
+```python
+stop = timeit.default_timer()  
+print ("Runtime: ", str(timedelta(seconds=stop-start)))
+```
+
