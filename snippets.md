@@ -47,9 +47,7 @@ fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 from datetime import datetime, timedelta
 import timeit
 start = timeit.default_timer()
-``` 
-Some code  
-```python
+__code to profile__
 stop = timeit.default_timer()  
 print ("Runtime: ", str(timedelta(seconds=stop-start)))
 ```
