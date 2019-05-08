@@ -28,5 +28,10 @@ repo=`git config --get remote.origin.url`
 rm -rf .git
 g init; gaa; gcam "Initial commit"; gra origin $repo; ggf
 ```
+## tmux
+Start new session: `tmux`  
+New session w/ name: `tmux new -s name`  
+List sessions: `tmux ls`
+Attach: `tmux a`, `tmux at`, `tmux attach` or `tmux a -t name`  
 
 
