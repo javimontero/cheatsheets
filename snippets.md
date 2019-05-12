@@ -1,6 +1,7 @@
 # Code Snippets
 [Pushover notifications](#Pushover-notifications)  
 [Timestamp](#Timestamp)  
+[Runtime](#Calculate-runtime-of-code)
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Usefull to inform of long process termination like machine learning training.  
@@ -37,14 +38,17 @@ def send_pushover (msg):
 ```
 ## Timestamp
 Generate a timestamp including microseconds for a file name, for example.
-```
+```python
 import datetime
 fname = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S%f") + ".pk"
 ```
-## Renaming conda environments
-You have to create a new enviornment by cloning, and then remove the old one.  
-```
-conda create --name new_name --clone old_name
-conda remove --name old_name --all
+## Calculate runtime of code
+```python
+from datetime import datetime, timedelta
+import timeit
+start = timeit.default_timer()
+__code to profile__
+stop = timeit.default_timer()  
+print ("Runtime: ", str(timedelta(seconds=stop-start)))
 ```
 
