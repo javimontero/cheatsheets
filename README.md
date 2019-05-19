@@ -5,7 +5,7 @@
 ### Machine Learning cheatsheets
 [Great ML resources and cheatsheets by Sam Finlayson](https://sgfin.github.io/learning-resources/#cheatsheets)
 
-Cheatsheets covering Supervised, Unsupervised, Deep Learning and refreshers for probs, algebra and calculus [CS229 course from Standfor](https://stanford.edu/~shervine/teaching/cs-229/)
+Cheatsheets covering Supervised, Unsupervised, Deep Learning and refreshers for probs, algebra and calculus [CS229 course from Standford](https://stanford.edu/~shervine/teaching/cs-229/) [Github](https://github.com/afshinea/stanford-cs-229-machine-learning)
 
 ### DataViz
 [Matplotlib useful quick tricks](https://towardsdatascience.com/all-your-matplotlib-questions-answered-420dd95cb4ff)
