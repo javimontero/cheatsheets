@@ -17,11 +17,12 @@ function pushover {
 	curl -s \
   		--form-string "token=_INSERT_YOUR_TOKEN_HERE_" \
   		--form-string "user=_INSERT_YOUR_USER_HERE" \
-  		--form-string "message=$1" \
+		--form-string "title=$1"\
+  		--form-string "message=$2" \
   		https://api.pushover.net/1/messages.json
 }
 
-pushover "Message"
+pushover "titulo" "Message"
 ```
 ### Python
 ```python
