@@ -60,11 +60,10 @@ Bash script to mantain only specific number of files and delete the rest. If you
 #!/bin/bash
 
 # Number of files to maintain
-
 RETENTION=10
 
 # Wildcard with absolute path
-folder="/Users/monti/Downloads/home/monti/bitmex/20191202/*.pk"
+folder="/Users/grip/Downloads/*.pk"
 
 # Number of files
 nfiles=`ls ${folder} | wc -l`
