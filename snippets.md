@@ -1,7 +1,7 @@
 # Code Snippets
 [Pushover notifications](#Pushover-notifications)  
 [Timestamp](#Timestamp)  
-[Runtime](#Calculate-runtime-of-code)
+[Runtime](#Calculate-runtime-of-code)  
 [Retention files](#retention-files)
 
 ## Pushover notifications
