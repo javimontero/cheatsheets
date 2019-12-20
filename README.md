@@ -7,7 +7,7 @@
 
 | link | description |  
 | --- | --- |  
-| [Standford CS229 ](https://stanford.edu/~shervine/teaching/cs-229/) | Cheatseets covering Supervised, Unsupervised and DL |  
+| [Standford CS229 ](https://stanford.edu/~shervine/teaching/cs-229/) | Cheatsheets covering Supervised, Unsupervised and DL |  
 | [Sam Finlayson](https://sgfin.github.io/learning-resources/#cheatsheets) | Great ML resources and cheatsheets by Sam Finlayson |
 
 ### DataViz
