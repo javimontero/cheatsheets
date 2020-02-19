@@ -3,6 +3,8 @@
 [ZSH | terminal utilities](https://github.com/javimontero/cheatsheets/blob/master/zsh.md)  
 [Code snippets](https://github.com/javimontero/cheatsheets/blob/master/snippets.md)  
 [Ubuntu linux](https://github.com/javimontero/cheatsheets/blob/master/ubuntu.md)
+[Shell Magic - The Ultimate Bash Cheatsheet!](https://shellmagic.xyz/)
+
 ### Machine Learning cheatsheets
 
 | link | description |  
