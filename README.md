@@ -13,4 +13,8 @@
 | [Sam Finlayson](https://sgfin.github.io/learning-resources/#cheatsheets) | Great ML resources and cheatsheets by Sam Finlayson |
 
 ### DataViz
-[Matplotlib useful quick tricks](https://towardsdatascience.com/all-your-matplotlib-questions-answered-420dd95cb4ff)
+- [Matplotlib useful quick tricks](https://towardsdatascience.com/all-your-matplotlib-questions-answered-420dd95cb4ff)
+
+### Developing Tools
+- [I hate Regex](https://ihateregex.io/). Help with Regular expressions
+- [MITs The missing Semester](https://missing.csail.mit.edu/). Amazing resources from MIT's CS courses. Shell, VIM, debugging, markdown, security.
