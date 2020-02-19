@@ -5,16 +5,16 @@
 [Ubuntu linux](https://github.com/javimontero/cheatsheets/blob/master/ubuntu.md)
 [Shell Magic - The Ultimate Bash Cheatsheet!](https://shellmagic.xyz/)
 
-### Machine Learning cheatsheets
+# Machine Learning cheatsheets
 
 | link | description |  
 | --- | --- |  
 | [Standford CS229 ](https://stanford.edu/~shervine/teaching/cs-229/) | Cheatsheets covering Supervised, Unsupervised and DL |  
 | [Sam Finlayson](https://sgfin.github.io/learning-resources/#cheatsheets) | Great ML resources and cheatsheets by Sam Finlayson |
 
-### DataViz
+# DataViz
 - [Matplotlib useful quick tricks](https://towardsdatascience.com/all-your-matplotlib-questions-answered-420dd95cb4ff)
 
-### Developing Tools
+# Developing Tools
 - [I hate Regex](https://ihateregex.io/). Help with Regular expressions
 - [MITs The missing Semester](https://missing.csail.mit.edu/). Amazing resources from MIT's CS courses. Shell, VIM, debugging, markdown, security.
