@@ -5,6 +5,7 @@
 [Ubuntu linux](https://github.com/javimontero/cheatsheets/blob/master/ubuntu.md)  
 [Shell Magic - The Ultimate Bash Cheatsheet!](https://shellmagic.xyz/)  
 [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml)  
+[git](git.md)
 
 # Machine Learning cheatsheets
 
