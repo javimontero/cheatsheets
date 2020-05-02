@@ -22,3 +22,6 @@ View both remote and local branches
 ## Replace local branch from remote
 Assuming origin/develop is the remote branch you want to reset to
 `git reset --hard origin/develop`
+
+## Copy a file form one branch to another
+git checkout otherbranch file.txt
