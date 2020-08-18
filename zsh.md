@@ -33,5 +33,6 @@ Start new session: `tmux`
 New session w/ name: `tmux new -s name`  
 List sessions: `tmux ls`  
 Attach: `tmux a`, `tmux at`, `tmux attach` or `tmux a -t name`  
+Run a command in a background tmux session: `tmux new-session -d "echo hello;sleep 10"`  
 
 
