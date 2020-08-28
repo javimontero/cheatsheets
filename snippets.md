@@ -9,6 +9,7 @@ Send real time notification to the phone via pushover ([pushover.net](https://pu
 
 ### Bash 
 ```shell
+#!/bin/bash
 function pushover {
 	curl -s \
   		--form-string "token=_INSERT_YOUR_TOKEN_HERE_" \
@@ -35,8 +36,8 @@ fi
 pushover $(hostname) $1
 ```
 Usage:  
-`$ zip -T file.zip | pushover` 
-Or:  
+`$ zip -T file.zip | pushover`   
+or:  
 `$ pushover msg`  
 
 ### Python
