@@ -5,15 +5,10 @@
 [Retention files](#retention-files)
 
 ## Pushover notifications
-Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Usefull to inform of long process termination like machine learning training.  
+Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Useful to inform of long process termination like machine learning training.  
 
 ### Bash 
 ```shell
-if [ $# -ne 1 ];then
-	echo "Usage: $0 msg"
-	exit 3
-fi
-
 function pushover {
 	curl -s \
   		--form-string "token=_INSERT_YOUR_TOKEN_HERE_" \
@@ -23,8 +18,27 @@ function pushover {
   		https://api.pushover.net/1/messages.json
 }
 
-pushover "Title" "Message"
+# Check to see if a pipe exists on stdin.
+if [ -p /dev/stdin ]; then
+    # If we want to read the input line by line
+    while IFS= read line; do
+            msg=${line}
+    done
+    pushover $(hostname) ${msg}
+fi
+
+if [ $# -ne 1 ];then
+	echo "Usage: $0 msg"
+	exit 3
+fi
+
+pushover $(hostname) $1
 ```
+Usage:  
+`$ zip -T file.zip | pushover` 
+Or:  
+`$ pushover msg`  
+
 ### Python
 ```python
 import http.client, urllib
