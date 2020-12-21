@@ -1,3 +1,7 @@
+# Code Snippets
+[Pushover notifications](code/pushover.py)
+[Backblaze backup](code/b2_backup.py)
+
 # cheatsheets
 [VIM Editor](https://github.com/javimontero/cheatsheets/blob/master/vim.md)  
 [ZSH | terminal utilities](https://github.com/javimontero/cheatsheets/blob/master/zsh.md)  
