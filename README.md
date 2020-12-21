@@ -1,6 +1,6 @@
 # Code Snippets
-[Pushover notifications](code/pushover.py)
-[Backblaze backup](code/b2_backup.py)
+[Pushover notifications](code/pushover.py)  
+[Backblaze backup](code/b2_backup.py)  
 
 # cheatsheets
 [VIM Editor](https://github.com/javimontero/cheatsheets/blob/master/vim.md)  
