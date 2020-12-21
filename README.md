@@ -1,6 +1,7 @@
 # Code Snippets
 [Pushover notifications](code/pushover.py)  
 [Backblaze backup](code/b2_backup.py)  
+[Bash script template](code/script-template.sh). Full description [ https://betterdev.blog/minimal-safe-bash-script-template/](https://betterdev.blog/minimal-safe-bash-script-template/)
 
 # cheatsheets
 [VIM Editor](https://github.com/javimontero/cheatsheets/blob/master/vim.md)  
