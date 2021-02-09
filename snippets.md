@@ -2,7 +2,8 @@
 [Pushover notifications](#Pushover-notifications)  
 [Timestamp](#Timestamp)  
 [Runtime](#Calculate-runtime-of-code)  
-[Retention files](#retention-files)
+[Retention files](#retention-files)  
+[Python argparse](#python-argparse)
 
 ## Pushover notifications
 Send real time notification to the phone via pushover ([pushover.net](https://pushover.net)). Useful to inform of long process termination like machine learning training.  
@@ -98,3 +99,48 @@ delete_files=`ls ${folder} | head -n ${n}`
 # Delete files
 for f in ${delete_files};do rm $f;done
 ```
+
+## Python argparse
+'''python
+import argparse
+
+# General info
+# https://pymotw.com/3/argparse/
+
+# How to work with subparsers
+# https://stackoverflow.com/questions/8250010/argparse-identify-which-subparser-was-used/9286586#9286586
+
+
+parser = argparse.ArgumentParser()
+
+subparsers = parser.add_subparsers(help="commands", dest="command")
+
+# A list command
+list_parser = subparsers.add_parser("list", help="List contents")
+list_parser.add_argument("dirname", action="store", help="Directory to list")
+# list_parser.set_defaults(command="list")
+# A create command
+create_parser = subparsers.add_parser("create", help="Create a directory")
+create_parser.add_argument("dirname", action="store", help="New directory to create")
+create_parser.add_argument(
+    "--read-only",
+    default=False,
+    action="store_true",
+    help="Set permissions to prevent writing to the directory",
+)
+# create_parser.set_defaults(command="create")
+
+# A delete command
+delete_parser = subparsers.add_parser("delete", help="Remove a directory")
+delete_parser.add_argument("dirname", action="store", help="The directory to remove")
+delete_parser.add_argument(
+    "--recursive",
+    "-r",
+    default=False,
+    action="store_true",
+    help="Remove the contents of the directory, too",
+)
+# delete_parser.set_defaults(command="delete")
+
+print(parser.parse_args())
+'''
