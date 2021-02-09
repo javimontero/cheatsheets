@@ -101,7 +101,7 @@ for f in ${delete_files};do rm $f;done
 ```
 
 ## Python argparse
-'''python
+```python
 import argparse
 
 # General info
@@ -143,4 +143,4 @@ delete_parser.add_argument(
 # delete_parser.set_defaults(command="delete")
 
 print(parser.parse_args())
-'''
+```
